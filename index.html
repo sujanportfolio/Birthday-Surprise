@@ -3,27 +3,174 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday Pandu</title>
+  <meta name="description" content="Sujan Sapkota - Student Developer and Full-Stack Developer portfolio.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Sujan Sapkota | Developer Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card">
-    <h1>🎉 Happy Birthday 🎉</h1>
-    <h2>Koshis Pandey</h2>
-    <p class="nickname">(a.k.a Pandu 😄)</p>
-    <img src="Pandu.jpg" alt="Koshis Pandey" class="photo">
-    <p class="blessing">
-      May your life be as colorful as this page,<br>
-      as bright as your smile,<br>
-      and as joyful as your heart. 🎂💫
-    </p>
-    <button onclick="alert('Lots of love and blessings to you, Pandu! 🎁✨')">
-      Click for Surprise
-    </button>
-  </div>
+  <div class="scan-line" aria-hidden="true"></div>
 
-  <div class="balloon b1"></div>
-  <div class="balloon b2"></div>
-  <div class="balloon b3"></div>
+  <header class="navbar">
+    <a class="brand" href="#home">SUJAN<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">STUDENT DEVELOPER · CREATOR</p>
+        <h1>Building ideas into <span>working software.</span></h1>
+        <p class="hero-text">
+          I'm Sujan Sapkota, a student developer focused on web development,
+          software projects, and learning by building real things.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View my work</a>
+          <a class="btn secondary" href="resume.pdf" download>Download resume</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/sujan-sapkota-630174439/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:sapkotasujan8848@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="status"><span></span> Available to learn & build</div>
+        <div class="code-window">
+          <div class="window-top"><i></i><i></i><i></i><span>sujan.js</span></div>
+          <pre><code><b>const</b> developer = {
+  name: <em>"Sujan Sapkota"</em>,
+  focus: <em>"Full-Stack Web"</em>,
+  stack: [
+    <em>"JavaScript"</em>,
+    <em>"React"</em>,
+    <em>"Node.js"</em>,
+    <em>"MongoDB"</em>
+  ],
+  mindset: <em>"Build. Learn. Improve."</em>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="creator-note section"><div class="creator-note-inner"><span>CREATED BY SUJAN</span><p>This is my personal portfolio, created to present the projects I've built, the skills I'm developing, and the direction I'm taking as a developer.</p></div></section>
+
+<section id="about" class="section split">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="section-content">
+        <h2>Learning by <span>building.</span></h2>
+        <p>
+          I'm currently a Grade 10 student developing my skills in programming
+          and modern web development. I enjoy taking an idea, designing how it
+          should work, and turning it into a usable project.
+        </p>
+        <p>
+          My work spans C and C++, front-end development, JavaScript, React,
+          Node.js, Express, MongoDB, and Git/GitHub. I care about clean
+          interfaces, practical functionality, and continuously improving my
+          technical skills.
+        </p>
+        <div class="about-facts">
+          <div><strong>01</strong><span>Student developer</span></div>
+          <div><strong>02</strong><span>Web & software projects</span></div>
+          <div><strong>03</strong><span>Always learning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-label">02 / SKILLS</div>
+      <div class="section-content">
+        <h2>Tools I <span>work with.</span></h2>
+        <div class="skill-grid">
+          <article><b>C / C++</b><span>Programming fundamentals</span></article>
+          <article><b>HTML / CSS</b><span>Responsive interfaces</span></article>
+          <article><b>JavaScript</b><span>Interactive web applications</span></article>
+          <article><b>React</b><span>Component-based UI</span></article>
+          <article><b>Node.js</b><span>Server-side development</span></article>
+          <article><b>Express.js</b><span>REST APIs & backend</span></article>
+          <article><b>MongoDB</b><span>Database development</span></article>
+          <article><b>Git / GitHub</b><span>Version control & projects</span></article>
+          <article><b>VS Code</b><span>Development environment</span></article>
+          <article><b>REST APIs</b><span>Frontend-backend integration</span></article>
+        </div>
+        <p class="skill-note">Skills shown here should grow with real projects, coursework, and experience.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section"><div class="section-label">03 / PROJECTS</div><div class="section-content"><h2>Things I've <span>built.</span></h2><p class="muted">Live projects I created while learning, experimenting, and turning ideas into usable digital experiences.</p><div class="project-grid"><article class="project featured"><div class="project-top"><span>01</span><span>LIVE · E-COMMERCE</span></div><h3>ShopSphere</h3><p>A modern e-commerce project I created to explore online shopping experiences, product discovery, and interactive web interfaces.</p><div class="tags"><span>E-Commerce</span><span>Web Development</span><span>UI</span></div><div class="project-links"><a href="https://shopsphere.freebuff.app/" target="_blank" rel="noopener">Live website ↗</a></div></article><article class="project featured"><div class="project-top"><span>02</span><span>LIVE · PLATFORM</span></div><h3>PasalHub</h3><p>A local-business platform I created to explore how people can discover nearby shops and services through a modern digital experience.</p><div class="tags"><span>Platform</span><span>Business</span><span>Web</span></div><div class="project-links"><a href="https://pasalhub.freebuff.app/" target="_blank" rel="noopener">Live website ↗</a></div></article><article class="project featured"><div class="project-top"><span>03</span><span>LIVE · SKILLS</span></div><h3>SkillSync</h3><p>A skills-focused project I created to experiment with a modern digital experience for exploring skills and learning-related information.</p><div class="tags"><span>Skills</span><span>Web</span><span>Digital Product</span></div><div class="project-links"><a href="https://skillsync.freebuff.app/" target="_blank" rel="noopener">Live website ↗</a></div></article></div></div></section>
+
+<section id="education" class="section split">
+      <div class="section-label">04 / EDUCATION</div>
+      <div class="section-content">
+        <h2>Where I'm <span>growing.</span></h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">CURRENT</span>
+            <div>
+              <h3>Grade 10</h3>
+              <p>Shree Ratna Rajya Laxmi Secondary School</p>
+              <p class="muted">Focused on academics, computer studies, programming, and building practical projects.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">ONGOING</span>
+            <div>
+              <h3>Independent Development</h3>
+              <p>Web development, C/C++, React, backend development, databases, and Git/GitHub.</p>
+            </div>
+          </div>
+        </div>
+        <div class="achievement-box">
+          <span>MORE TO COME</span>
+          <p>Certifications, competitions, achievements, and future experience can be added here as they happen.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resume-section">
+      <div class="resume-card">
+        <div>
+          <p class="eyebrow">PROFESSIONAL PROFILE</p>
+          <h2>Want the full picture?</h2>
+          <p>Download my resume for a concise overview of my education, skills, projects, and experience.</p>
+        </div>
+        <a class="btn primary" href="resume.pdf" download>Download resume ↓</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-label">05 / CONTACT</div>
+      <div class="section-content">
+        <h2>Let's build something <span>useful.</span></h2>
+        <p>
+          For project discussions, collaboration, or professional opportunities,
+          reach out through the links below.
+        </p>
+        <div class="contact-grid">
+          <a href="mailto:sapkotasujan8848@gmail.com"><span>Email</span><b>sapkotasujan8848@gmail.com ↗</b></a>
+          <a href="https://github.com/" target="_blank" rel="noopener"><span>GitHub</span><b>github.com/sujanportfolio ↗</b></a>
+          <a href="https://www.linkedin.com/in/sujan-sapkota-630174439/" target="_blank" rel="noopener"><span>LinkedIn</span><b>linkedin.com/in/sujan-sapkota-630174439 ↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Sujan Sapkota</span>
+    <span>Built with HTML, CSS & JavaScript</span>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
 </body>
 </html>
